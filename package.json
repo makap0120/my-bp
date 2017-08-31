@@ -1,0 +1,36 @@
+{
+  "name": "html",
+  "version": "0.0.1",
+  "description": "psd to html enviroment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "config": {
+    "src": {
+      "sass": "src/sass"
+    },
+    "build": {
+      "css": "dist/css"
+    }
+  },
+  "browserlist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "author": "maksim",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "bower": "^1.8.0",
+    "browser-sync": "^2.18.13",
+    "browsersync": "0.0.1-security",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "require-dir": "^0.3.2",
+    "webpack": "^3.4.1"
+  }
+}
