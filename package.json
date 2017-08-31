@@ -27,10 +27,25 @@
     "browsersync": "0.0.1-security",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
     "gulp-nunjucks-render": "^2.2.1",
     "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
+    "gulp-uglifyjs": "^0.6.2",
     "require-dir": "^0.3.2",
     "webpack": "^3.4.1"
-  }
+  },
+  "dependencies": {
+    "three": "^0.87.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makap0120/my-bp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/makap0120/my-bp/issues"
+  },
+  "homepage": "https://github.com/makap0120/my-bp#readme"
 }
